@@ -46,60 +46,65 @@ MUTE_GIFS = [
     "https://telegra.ph//file/b4faf6e390d72d286abdf.mp4",
 ]
 
-FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
+FIRST_PART_TEXT = "🍷 *𝗛𝗘𝗬* `{}` . . . 𝗜 𝗔𝗠 𝗠𝗨𝗦𝗜𝗖 𝗔𝗡𝗗𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 𝗕𝗢𝗧✨
+/help 𝗛𝗘𝗟𝗣 𝗖𝗠𝗡𝗗 𝗨𝗦𝗘"
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴍɪᴋᴏ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "*💥𝐈 αм ✭𝐀∂ναи¢є ✭𝐀и∂✭ 𝐒υρєяfαѕт ✭𝐌υѕι¢ ✭𝐁σт 𝐈и 𝐓єℓєgяαм ✭𝐆яσυρ🎸
+➕𝐀∂∂✰ 𝐘συя 𝐆яσυρ✰➕
+📍𝐔𝐬𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞⚡
++ /start 𝐒𝐭𝐚𝐫𝐭 𝐓𝐡𝐞 𝐁𝐨𝐭
++ /help 𝐆𝐢𝐯𝐞 𝐘𝐨𝐮 𝐓𝐡𝐢𝐬 𝐌𝐞𝐬𝐬𝐚𝐠𝐞.
+💥𝐈 αм ✭𝐀∂ναи¢є ✭𝐌єииαgє✭ 𝐘συя ✭𝐒υρєя ✭𝐆яσυρ✭ 💞  *"
 
 START_BTN = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨",
+            text="➕𝗔𝗗𝗗 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="✫𝗛𝗘𝗟𝗣✫", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
-        InlineKeyboardButton(text="AI", callback_data="ai_handler"),
-        InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
+        InlineKeyboardButton(text="✫𝗕𝗢𝗧 𝗜𝗡𝗙𝗢✫", callback_data="Miko_"),
+        InlineKeyboardButton(text="𝗔𝗟𝗟", callback_data="ai_handler"),
     ],
     [
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 GROUP_START_BTN = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨",
+            text="➕𝗔𝗗𝗗 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/Hydra_Updates"),
-        ib(text="SUPPORT", url="https://t.me/hydraXsupport"),
+        ib(text="𝗨𝗣𝗗𝗔𝗧𝗘", url="https://t.me/TKS_JOIN"),
+        ib(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/TKS_CHAT_OFFICIAL"),
     ],
     [
         ib(
-            text="⇦ ADD ME ⇨",
+            text="➕𝗔𝗗𝗗 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
 ]
 
 HELP_STRINGS = """
-🫧 *Yae-Miko* 🫧
+🫧 *𝗜 𝗔𝗠 𝗬𝗢𝗨𝗥 𝗛𝗘𝗟𝗣𝗜𝗡𝗚* 🫧
 
-☉ *Here, you will find a list of all the available commands.*
+☉ *𝗜 𝗔𝗠 𝗙𝗨𝗟𝗟 𝗛𝗘𝗟𝗣𝗜𝗡𝗚 𝗬𝗢𝗨 𝗠𝗨𝗦𝗜𝗖 𝗔𝗡𝗗 𝗠𝗔𝗡𝗔𝗚𝗘𝗜𝗡𝗚 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣.*
 
-ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
+𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗖𝗔𝗡 𝗕𝗘 𝗨𝗦𝗘𝗗 𝗪𝗜𝗧𝗛 : /
 """
