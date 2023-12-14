@@ -111,7 +111,7 @@ async def tban_usr(c: app, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "UNBAN",
+                        "𝗨𝗡𝗕𝗔𝗡",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -327,7 +327,7 @@ async def dtban_usr(c: app, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "UNBAN",
+                        "𝗨𝗡𝗕𝗔𝗡",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -828,7 +828,7 @@ async def dban_usr(c: app, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "UNBAN",
+                        "𝗨𝗡𝗕𝗔𝗡",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -935,7 +935,7 @@ async def ban_usr(c: app, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "UNBAN",
+                        "𝗨𝗡𝗕𝗔𝗡",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -1041,5 +1041,5 @@ __help__ = """
 ➠ **Example:**
 » `/ban @username`: this bans a user in the chat."""
 
-__mod_name__ = "BANS"
+__mod_name__ = "𝗕𝗔𝗡𝗦"
 # <================================================ END =======================================================>
