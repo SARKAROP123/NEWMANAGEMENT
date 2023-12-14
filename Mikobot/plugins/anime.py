@@ -2817,7 +2817,7 @@ async def toggle_favourites(id_: int, media: str, user: int):
     vars_ = {"id": int(id_)}
     query = (
         ANIME_MUTATION
-        if media == "ANIME" or media == "AIRING"
+        if media == "𝗔𝗡𝗜𝗠𝗘" or media == "AIRING"
         else CHAR_MUTATION
         if media == "CHARACTER"
         else MANGA_MUTATION
