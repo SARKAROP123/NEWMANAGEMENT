@@ -2817,7 +2817,7 @@ async def toggle_favourites(id_: int, media: str, user: int):
     vars_ = {"id": int(id_)}
     query = (
         ANIME_MUTATION
-        if media == "𝗔𝗡𝗜𝗠𝗘" or media == "AIRING"
+        if media == "ANIME or media == "AIRING"
         else CHAR_MUTATION
         if media == "CHARACTER"
         else MANGA_MUTATION
@@ -5137,5 +5137,5 @@ __help__ = """
 » /getgenres - Get list of available Genres
 """
 
-__mod_name__ = "ANIME"
+__mod_name__ = "𝗔𝗡𝗜𝗠𝗘"
 # <================================================== END =====================================================>
