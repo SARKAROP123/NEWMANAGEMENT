@@ -368,7 +368,7 @@ if is_module_loaded(FILENAME):
 » /listcmds: List all possible toggleable commands.
     """
 
-    __mod_name__ = "DISABLE"
+    __mod_name__ = "𝗗𝗜𝗦𝗔𝗕𝗟𝗘"
 
 else:
     DisableAbleCommandHandler = CommandHandler
