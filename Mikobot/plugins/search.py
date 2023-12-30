@@ -87,7 +87,7 @@ async def bing_search(client: Client, message: Message):
 
 
 # Command handler for the '/bingimg' command
-@app.on_message(filters.command("bingimg"))
+@app.on_message(filters.command("gggffyrdfgmcd"))
 async def bingimg_search(client: Client, message: Message):
     try:
         text = message.text.split(None, 1)[
@@ -124,7 +124,7 @@ async def bingimg_search(client: Client, message: Message):
 
 
 # Command handler for the '/googleimg' command
-@app.on_message(filters.command("googleimg"))
+@app.on_message(filters.command("googleihgfffcdmg"))
 async def googleimg_search(client: Client, message: Message):
     try:
         text = message.text.split(None, 1)[
